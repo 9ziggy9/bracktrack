@@ -2,4 +2,17 @@
 ** Introduction to game of Blackjack
 *** Differentiating shoe from pitched game
 *** Significacne of blackjack and insurance
-** 
+** Implementation of new deck shoe
+*** Number of decks introduced at compile time
+*** Arrays are fixed, no dynamic arrays at this point
+** Implementation of draw procedures
+*** The shoe is one mutable object which dispenses pointers to live cards
+- A notion of discard tray must exist, perhaps at the end of
+  hands an additional a data structure will accumulate dead cards
+** Implementation of shuffling
+*** Fisher-Yates will be sufficient to start
+- However, it is our intention to better simulate casino shuffle procedures. 
+  In particular, their propensity to lead to "clumping" which may be possible
+  to exploit via tracking.
+- With Fisher-Yates implemented, it is at that point possible to begin a card 
+  counting algorithm.

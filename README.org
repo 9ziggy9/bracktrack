@@ -1,0 +1,5 @@
+* TODO
+** Introduction to game of Blackjack
+*** Differentiating shoe from pitched game
+*** Significacne of blackjack and insurance
+** 
